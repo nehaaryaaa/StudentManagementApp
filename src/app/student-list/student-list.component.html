@@ -1,0 +1,21 @@
+<section id="viewsection">
+    <table border="2">
+        <caption>STUDENT DETAILS</caption>
+        <thead>
+            <tr><th>ID</th><th>NAME</th><th>AGE</th><th>GENDER</th><th>EMAIL ID</th><th>MOBILE NUMBER</th><th>COURSE</th></tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let student of studentArray">
+                <td>{{student.studentId}}</td>
+                <td>{{student.studentName}}</td>
+                <td>{{student.age}}</td>
+                <td>{{student.gender}}</td>
+                <td>{{student.email}}</td>
+                <td>{{student.mobileNumber}}</td>
+                <td>{{student.course}}</td>
+               <!-- <td><button [routerLink]="['/fooddetails', food.foodId,food.foodName]">SHOW DETAILS</button></td>
+                <td><button [routerLink]="['/deletefood', food.foodId]">DELETE FOOD</button></td>-->
+            </tr>
+        </tbody>
+    </table>
+</section>

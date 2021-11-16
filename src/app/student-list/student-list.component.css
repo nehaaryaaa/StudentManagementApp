@@ -1,0 +1,11 @@
+#viewsection{
+    text-align: center;
+    height: 300px;
+}
+table{
+    background-color: yellow;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 400px;
+}

@@ -1,0 +1,17 @@
+footer{
+    background-color: black;
+    color: whitesmoke;
+    height: 100px;
+    text-align:center;
+}
+.footer-basic .copyright {
+    margin-top:25px;
+    
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+div{
+    display: inline-block;
+    margin: 20px;
+}
